@@ -1,7 +1,7 @@
-# tweet-sentiment-extraction_roberta-base
-Utilizing Roberta-base Extracting Selected text from Tweets | Kaggle
+# tweet-sentiment-extraction_robert-base
+Utilizing Robert-base Extracting Selected text from Tweets | Kaggle
 
-# `roberta-base`
+# `robert-base`
 Pretrained model on Romanian language using a masked language modeling (MLM) and next sentence prediction (NSP) objective. 
 
 <table>
