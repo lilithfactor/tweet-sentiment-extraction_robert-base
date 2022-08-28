@@ -1,0 +1,192 @@
+14.6s 1 /kaggle/input/tweet-sentiment-extraction/sample_submission.csv
+14.6s 2 /kaggle/input/tweet-sentiment-extraction/train.csv
+14.6s 3 /kaggle/input/tweet-sentiment-extraction/test.csv
+14.6s 4 /kaggle/input/roberta-base/rust_model.ot
+14.6s 5 /kaggle/input/roberta-base/config.json
+14.6s 6 /kaggle/input/roberta-base/merges.txt
+14.6s 7 /kaggle/input/roberta-base/README.md
+14.6s 8 /kaggle/input/roberta-base/tokenizer.json
+14.6s 9 /kaggle/input/roberta-base/vocab.json
+14.6s 10 /kaggle/input/roberta-base/tf_model.h5
+14.6s 11 /kaggle/input/roberta-base/dict.txt
+14.6s 12 /kaggle/input/roberta-base/pytorch_model.bin
+14.6s 13 /kaggle/input/roberta-base/flax_model.msgpack
+14.6s 14 /kaggle/input/maskwordclud22/Mask-wordcloud/twitter_mask2.png
+14.6s 15 /kaggle/input/maskwordclud22/Mask-wordcloud/twitter_mask4.jpg
+14.6s 16 /kaggle/input/maskwordclud22/Mask-wordcloud/twitter_mask3.jpg
+14.6s 17 /kaggle/input/maskwordclud22/Mask-wordcloud/book-logo-1.jpg
+14.6s 18 /kaggle/input/maskwordclud22/Mask-wordcloud/twitter_mask.png
+14.6s 19 /kaggle/input/maskwordclud22/Mask-wordcloud/wordcloud-man.png
+14.6s 20 /kaggle/input/maskwordclud22/Mask-wordcloud/twitter_mask3.png
+16.4s 21 0.16666666666666666
+17.7s 22 [nltk_data] Downloading package stopwords to /usr/share/nltk_data...
+17.7s 23 [nltk_data]   Package stopwords is already up-to-date!
+17.7s 24 [nltk_data] Downloading package punkt to /usr/share/nltk_data...
+17.7s 25 [nltk_data]   Package punkt is already up-to-date!
+17.7s 26 [nltk_data] Downloading package averaged_perceptron_tagger to
+17.7s 27 [nltk_data]     /usr/share/nltk_data...
+17.7s 28 [nltk_data]   Package averaged_perceptron_tagger is already up-to-
+17.7s 29 [nltk_data]       date!
+17.7s 30 [nltk_data] Downloading package wordnet to /usr/share/nltk_data...
+17.9s 31 [nltk_data]   Package wordnet is already up-to-date!
+33.4s 32 Collecting https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+34.1s 33 Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz (12.0 MB)
+34.5s 34 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/12.0 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/12.0 MB[0m [31m48.0 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.2/12.0 MB[0m [31m61.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.1/12.0 MB[0m [31m49.0 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m8.1/12.0 MB[0m [31m57.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.5/12.0 MB[0m [31m48.1 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━[0m [32m11.2/12.0 MB[0m [31m53.7 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.0/12.0 MB[0m [31m54.4 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.0/12.0 MB[0m [31m54.4 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.0/12.0 MB[0m [31m54.4 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.0/12.0 MB[0m [31m31.3 MB/s[0m eta [36m0:00:00[0m
+35.8s 35 [?25h  Preparing metadata (setup.py) ... [?25l- done
+35.8s 36 [?25hRequirement already satisfied: spacy>=2.2.2 in /opt/conda/lib/python3.7/site-packages (from en-core-web-sm==2.2.5) (3.3.1)
+36.0s 37 Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (2.0.6)
+36.0s 38 Requirement already satisfied: requests<3.0.0,>=2.13.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (2.28.1)
+36.0s 39 Requirement already satisfied: blis<0.8.0,>=0.4.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (0.7.8)
+36.0s 40 Requirement already satisfied: typer<0.5.0,>=0.3.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (0.4.2)
+36.0s 41 Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.9 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (3.0.9)
+36.0s 42 Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (3.0.6)
+36.0s 43 Requirement already satisfied: jinja2 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (3.1.2)
+36.0s 44 Requirement already satisfied: setuptools in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (59.8.0)
+36.0s 45 Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (4.64.0)
+36.0s 46 Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (1.0.3)
+36.0s 47 Requirement already satisfied: srsly<3.0.0,>=2.4.3 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (2.4.3)
+36.0s 48 Requirement already satisfied: packaging>=20.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (21.3)
+36.0s 49 Requirement already satisfied: langcodes<4.0.0,>=3.2.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (3.3.0)
+36.0s 50 Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (1.0.7)
+36.0s 51 Requirement already satisfied: typing-extensions<4.2.0,>=3.7.4 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (4.1.1)
+36.0s 52 Requirement already satisfied: wasabi<1.1.0,>=0.9.1 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (0.9.1)
+36.0s 53 Requirement already satisfied: pathy>=0.3.5 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (0.6.2)
+36.0s 54 Requirement already satisfied: numpy>=1.15.0 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (1.21.6)
+36.0s 55 Requirement already satisfied: thinc<8.1.0,>=8.0.14 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (8.0.17)
+36.0s 56 Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (2.0.7)
+36.0s 57 Requirement already satisfied: pydantic!=1.8,!=1.8.1,<1.9.0,>=1.7.4 in /opt/conda/lib/python3.7/site-packages (from spacy>=2.2.2->en-core-web-sm==2.2.5) (1.8.2)
+36.0s 58 Requirement already satisfied: zipp>=0.5 in /opt/conda/lib/python3.7/site-packages (from catalogue<2.1.0,>=2.0.6->spacy>=2.2.2->en-core-web-sm==2.2.5) (3.8.0)
+36.0s 59 Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /opt/conda/lib/python3.7/site-packages (from packaging>=20.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (3.0.9)
+36.1s 60 Requirement already satisfied: smart-open<6.0.0,>=5.2.1 in /opt/conda/lib/python3.7/site-packages (from pathy>=0.3.5->spacy>=2.2.2->en-core-web-sm==2.2.5) (5.2.1)
+36.1s 61 Requirement already satisfied: charset-normalizer<3,>=2 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (2.1.0)
+36.1s 62 Requirement already satisfied: urllib3<1.27,>=1.21.1 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (1.26.9)
+36.1s 63 Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (3.3)
+36.1s 64 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (2022.6.15)
+36.3s 65 Requirement already satisfied: click<9.0.0,>=7.1.1 in /opt/conda/lib/python3.7/site-packages (from typer<0.5.0,>=0.3.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (8.0.4)
+36.3s 66 Requirement already satisfied: MarkupSafe>=2.0 in /opt/conda/lib/python3.7/site-packages (from jinja2->spacy>=2.2.2->en-core-web-sm==2.2.5) (2.0.1)
+36.4s 67 Requirement already satisfied: importlib-metadata in /opt/conda/lib/python3.7/site-packages (from click<9.0.0,>=7.1.1->typer<0.5.0,>=0.3.0->spacy>=2.2.2->en-core-web-sm==2.2.5) (4.12.0)
+36.5s 68 Building wheels for collected packages: en-core-web-sm
+38.6s 69 Building wheel for en-core-web-sm (setup.py) ... [?25l- \ | / - \ | done
+38.6s 70 [?25h  Created wheel for en-core-web-sm: filename=en_core_web_sm-2.2.5-py3-none-any.whl size=12011737 sha256=febeda7daf8cf0b70cf72350a90e9b2402c3740bd7ef5ea7725a71d31d3d3ca0
+38.6s 71 Stored in directory: /root/.cache/pip/wheels/51/19/da/a3885266a3c241aff0ad2eb674ae058fd34a4870fef1c0a5a0
+38.6s 72 Successfully built en-core-web-sm
+47.8s 73 Installing collected packages: en-core-web-sm
+47.8s 74 Attempting uninstall: en-core-web-sm
+47.8s 75 Found existing installation: en-core-web-sm 3.3.0
+47.8s 76 Uninstalling en-core-web-sm-3.3.0:
+48.0s 77 Successfully uninstalled en-core-web-sm-3.3.0
+48.5s 78 Successfully installed en-core-web-sm-2.2.5
+48.5s 79 [33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv[0m[33m
+49.2s 80 /opt/conda/lib/python3.7/site-packages/spacy/util.py:845: UserWarning: [W094] Model 'en_core_web_sm' (2.2.5) specifies an under-constrained spaCy version requirement: >=2.2.2. This can lead to compatibility problems with older versions, or as new spaCy versions are released, because the model may say it's compatible when it's not. Consider changing the "spacy_version" in your meta.json to a version range, with a lower and upper pin. For example: >=3.3.1,<3.4.0
+49.2s 81 warnings.warn(warn_msg)
+97.0s 82 [nltk_data] Downloading package omw-1.4 to /usr/share/nltk_data...
+127.2s 83 [0mNo stopwords left in texts.
+151.7s 84 There are 1 GPU(s) available.
+151.7s 85 We will use the GPU: Tesla P100-PCIE-16GB
+156.2s 86 ##########
+156.2s 87 # FOLD 1 #
+156.2s 88 ##########
+385.6s 89 Epoch 1/10 | train | Loss: 2.2176 | Jaccard: 0.4874
+427.4s 90 Epoch 1/10 |  val  | Loss: 1.6910 | Jaccard: 0.5180
+637.4s 91 Epoch 2/10 | train | Loss: 1.7700 | Jaccard: 0.5032
+679.2s 92 Epoch 2/10 |  val  | Loss: 1.6731 | Jaccard: 0.4997
+888.7s 93 Epoch 3/10 | train | Loss: 1.5655 | Jaccard: 0.5190
+930.2s 94 Epoch 3/10 |  val  | Loss: 1.6606 | Jaccard: 0.5150
+1138.8s 95 Epoch 4/10 | train | Loss: 1.4380 | Jaccard: 0.5271
+1180.4s 96 Epoch 4/10 |  val  | Loss: 1.7109 | Jaccard: 0.5189
+1388.9s 97 Epoch 5/10 | train | Loss: 1.3090 | Jaccard: 0.5400
+1430.6s 98 Epoch 5/10 |  val  | Loss: 1.7589 | Jaccard: 0.4983
+1639.5s 99 Epoch 6/10 | train | Loss: 1.1789 | Jaccard: 0.5570
+1681.8s 100 Epoch 6/10 |  val  | Loss: 1.9256 | Jaccard: 0.4988
+1891.0s 101 Epoch 7/10 | train | Loss: 1.0576 | Jaccard: 0.5702
+1932.5s 102 Epoch 7/10 |  val  | Loss: 1.9766 | Jaccard: 0.4960
+2141.4s 103 Epoch 8/10 | train | Loss: 0.9076 | Jaccard: 0.5886
+2182.7s 104 Epoch 8/10 |  val  | Loss: 2.3784 | Jaccard: 0.5212
+2391.7s 105 Epoch 9/10 | train | Loss: 0.7691 | Jaccard: 0.6080
+2433.1s 106 Epoch 9/10 |  val  | Loss: 2.3852 | Jaccard: 0.4945
+2641.6s 107 Epoch 10/10 | train | Loss: 0.6399 | Jaccard: 0.6210
+2683.3s 108 Epoch 10/10 |  val  | Loss: 2.6082 | Jaccard: 0.4994
+2685.0s 109 ##########
+2685.0s 110 # FOLD 2 #
+2685.0s 111 ##########
+2895.5s 112 Epoch 1/10 | train | Loss: 8.9615 | Jaccard: 0.0801
+2937.5s 113 Epoch 1/10 |  val  | Loss: 9.2096 | Jaccard: 0.0045
+3145.3s 114 Epoch 2/10 | train | Loss: 4.8207 | Jaccard: 0.3239
+3186.7s 115 Epoch 2/10 |  val  | Loss: 2.0319 | Jaccard: 0.5344
+3394.5s 116 Epoch 3/10 | train | Loss: 1.9531 | Jaccard: 0.4948
+3436.0s 117 Epoch 3/10 |  val  | Loss: 1.8297 | Jaccard: 0.4955
+3643.8s 118 Epoch 4/10 | train | Loss: 1.7007 | Jaccard: 0.5051
+3685.2s 119 Epoch 4/10 |  val  | Loss: 1.7771 | Jaccard: 0.4674
+3894.2s 120 Epoch 5/10 | train | Loss: 1.5424 | Jaccard: 0.5192
+3935.7s 121 Epoch 5/10 |  val  | Loss: 1.7920 | Jaccard: 0.4686
+4145.0s 122 Epoch 6/10 | train | Loss: 1.3872 | Jaccard: 0.5334
+4187.0s 123 Epoch 6/10 |  val  | Loss: 1.8336 | Jaccard: 0.5234
+4396.7s 124 Epoch 7/10 | train | Loss: 1.2231 | Jaccard: 0.5529
+4438.1s 125 Epoch 7/10 |  val  | Loss: 1.9121 | Jaccard: 0.5063
+4647.8s 126 Epoch 8/10 | train | Loss: 1.0658 | Jaccard: 0.5684
+4689.4s 127 Epoch 8/10 |  val  | Loss: 2.2661 | Jaccard: 0.4962
+4898.2s 128 Epoch 9/10 | train | Loss: 0.9134 | Jaccard: 0.5850
+4940.1s 129 Epoch 9/10 |  val  | Loss: 2.2196 | Jaccard: 0.5106
+5149.8s 130 Epoch 10/10 | train | Loss: 0.7796 | Jaccard: 0.6038
+5191.5s 131 Epoch 10/10 |  val  | Loss: 2.5691 | Jaccard: 0.4862
+5192.9s 132 ##########
+5192.9s 133 # FOLD 3 #
+5192.9s 134 ##########
+5405.1s 135 Epoch 1/10 | train | Loss: 2.1211 | Jaccard: 0.4851
+5446.8s 136 Epoch 1/10 |  val  | Loss: 1.6786 | Jaccard: 0.4829
+5657.3s 137 Epoch 2/10 | train | Loss: 1.5944 | Jaccard: 0.5109
+5699.5s 138 Epoch 2/10 |  val  | Loss: 1.6466 | Jaccard: 0.4848
+5909.3s 139 Epoch 3/10 | train | Loss: 1.4375 | Jaccard: 0.5264
+5951.4s 140 Epoch 3/10 |  val  | Loss: 1.6712 | Jaccard: 0.4707
+6161.2s 141 Epoch 4/10 | train | Loss: 1.2427 | Jaccard: 0.5404
+6203.2s 142 Epoch 4/10 |  val  | Loss: 1.8897 | Jaccard: 0.5185
+6413.1s 143 Epoch 5/10 | train | Loss: 1.0830 | Jaccard: 0.5600
+6455.2s 144 Epoch 5/10 |  val  | Loss: 2.0278 | Jaccard: 0.4942
+6665.1s 145 Epoch 6/10 | train | Loss: 0.9209 | Jaccard: 0.5823
+6707.1s 146 Epoch 6/10 |  val  | Loss: 2.0816 | Jaccard: 0.5061
+6917.3s 147 Epoch 7/10 | train | Loss: 0.7662 | Jaccard: 0.5997
+6959.4s 148 Epoch 7/10 |  val  | Loss: 2.5070 | Jaccard: 0.5143
+7169.3s 149 Epoch 8/10 | train | Loss: 0.6295 | Jaccard: 0.6172
+7211.6s 150 Epoch 8/10 |  val  | Loss: 2.5533 | Jaccard: 0.5109
+7422.0s 151 Epoch 9/10 | train | Loss: 0.5352 | Jaccard: 0.6310
+7464.2s 152 Epoch 9/10 |  val  | Loss: 3.0186 | Jaccard: 0.5256
+7674.2s 153 Epoch 10/10 | train | Loss: 0.4208 | Jaccard: 0.6434
+7716.4s 154 Epoch 10/10 |  val  | Loss: 3.4208 | Jaccard: 0.5205
+7760.2s 155 CPU times: user 39.4 s, sys: 2.47 s, total: 41.8 s
+7760.2s 156 Wall time: 42.2 s
+7769.5s 157 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+7769.5s 158 FutureWarning,
+7769.5s 159 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+7770.3s 160 [NbConvertApp] Writing 4549924 bytes to __notebook__.ipynb
+7773.4s 161 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2758: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+7773.4s 162 FutureWarning,
+7773.4s 163 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+7774.8s 164 [NbConvertApp] Support files will be in __results___files/
+7774.8s 165 [NbConvertApp] Making directory __results___files
+7774.8s 166 [NbConvertApp] Making directory __results___files
+7774.9s 167 [NbConvertApp] Making directory __results___files
+7774.9s 168 [NbConvertApp] Making directory __results___files
+7774.9s 169 [NbConvertApp] Making directory __results___files
+7774.9s 170 [NbConvertApp] Making directory __results___files
+7774.9s 171 [NbConvertApp] Making directory __results___files
+7774.9s 172 [NbConvertApp] Making directory __results___files
+7774.9s 173 [NbConvertApp] Making directory __results___files
+7774.9s 174 [NbConvertApp] Making directory __results___files
+7774.9s 175 [NbConvertApp] Making directory __results___files
+7774.9s 176 [NbConvertApp] Making directory __results___files
+7774.9s 177 [NbConvertApp] Making directory __results___files
+7774.9s 178 [NbConvertApp] Making directory __results___files
+7774.9s 179 [NbConvertApp] Making directory __results___files
+7774.9s 180 [NbConvertApp] Making directory __results___files
+7774.9s 181 [NbConvertApp] Making directory __results___files
+7774.9s 182 [NbConvertApp] Making directory __results___files
+7774.9s 183 [NbConvertApp] Making directory __results___files
+7774.9s 184 [NbConvertApp] Making directory __results___files
+7774.9s 185 [NbConvertApp] Making directory __results___files
+7774.9s 186 [NbConvertApp] Making directory __results___files
+7774.9s 187 [NbConvertApp] Making directory __results___files
+7774.9s 188 [NbConvertApp] Making directory __results___files
+7774.9s 189 [NbConvertApp] Making directory __results___files
+7774.9s 190 [NbConvertApp] Making directory __results___files
+7774.9s 191 [NbConvertApp] Making directory __results___files
+7774.9s 192 [NbConvertApp] Writing 1861751 bytes to __results__.html
