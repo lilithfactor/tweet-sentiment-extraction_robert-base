@@ -1,5 +1,7 @@
 # tweet-sentiment-extraction_robert-base
-Utilizing Robert-base Extracting Selected text from Tweets | Kaggle
+Utilizing Robert-base to Extract support phrases for sentiment labels
+
+> Selecting the part of the tweet (word or phrase) that reflects sentiment for the tweet
 
 # `robert-base`
 Pretrained model on Romanian language using a masked language modeling (MLM) and next sentence prediction (NSP) objective. 
